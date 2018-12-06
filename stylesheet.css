@@ -29,16 +29,16 @@
 
 .btn-upper{
 
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 
 }
 
 .btn-lower{
 	/*margin-left:70px;*/
 
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 
 }
 
@@ -48,9 +48,10 @@
     display: inline-block;
 }
 
-.first{
-	background-color:#E25E44;
-
+.me{
+	background:transparent url(Me2.png) no-repeat top;
+	padding-bottom: :5px;
+	border:None;
 }
 
 hr.divider{
@@ -59,30 +60,32 @@ hr.divider{
 }
 hr.vertical{
 	/*margin-left:35px;*/
+	position:absolute;
+	width:0;
+    height:17vh; 
+    border:0.7px solid white;
 }
 hr.vertical1 {
-	position:absolute;
-	width:0;
 	top:34vh;
-    height:17vh; /* you might need some positioning for this to work, see other questions about 100% height */
-    width:0;
-    border:2px solid #E25E44;
+    border-color:#E25E44;
 }
 hr.vertical2 {
-	position:absolute;
-	width:0;
 	top:51vh;
-    height:17vh; /* you might need some positioning for this to work, see other questions about 100% height */
-    width:0;
-    border:2px solid white;
 }
 hr.vertical3 {
-	position:absolute;
-	width:0;
 	top:68vh;
-    height:17vh; /* you might need some positioning for this to work, see other questions about 100% height */
-    width:0;
-    border:2px solid white;
+}
+
+hr.vertical4 {
+	top:85vh;
+}
+hr.horizontal{
+	border-top:1.5px solid white;
+	width:70%;
+}
+
+hr.horizontal1{
+	border-top-color:#E25E44;
 }
 
 .card{
@@ -98,11 +101,46 @@ hr.vertical3 {
 
 }
 
-div.content [class*="div"]
-{
-	float:none;
-}
 
 .scrollable{
 	overflow: scroll;
+}
+
+
+span.first-link,span.second-link,span.third-link,span.fourth-link{
+	position: absolute;
+	
+
+}
+
+
+div.textLink{
+	color:white;
+	margin-top: 10vh;
+	margin-bottom: -1vh;
+}
+
+.first-link{
+	background-color:#E25E44;
+	top:34vh;
+}
+
+.second-link{
+	top:51vh;
+}
+.third-link{
+	top:68vh;
+}
+.fourth-link{
+	top:85vh;
+}
+
+.textDivsLeft{
+	color:white;
+	text-align: left;
+}
+
+.textDivsRight{
+	color:white;
+	text-align: right;
 }
