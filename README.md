@@ -1,1 +1,3 @@
-# MyWebsite
+---
+permalink: /index.html
+---
