@@ -1,0 +1,108 @@
+*{
+	overflow: hidden;
+}
+
+.main{
+	height:100vh;
+}
+
+
+.sidebar{
+	background-color: #00001E;
+
+}
+
+.upper{
+	text-align: :center;
+	height:25%;
+
+}
+
+.uppercol{
+	margin:0 auto;
+
+}
+.lower{
+	height:70%;
+}
+
+
+.btn-upper{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.btn-lower{
+	/*margin-left:70px;*/
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.btn-circle {
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.first{
+	background-color:#E25E44;
+
+}
+
+hr.divider{
+	width:60%;
+	border:0.5px solid black;
+}
+hr.vertical{
+	/*margin-left:35px;*/
+}
+hr.vertical1 {
+	position:absolute;
+	width:0;
+	top:34vh;
+    height:17vh; /* you might need some positioning for this to work, see other questions about 100% height */
+    width:0;
+    border:2px solid #E25E44;
+}
+hr.vertical2 {
+	position:absolute;
+	width:0;
+	top:51vh;
+    height:17vh; /* you might need some positioning for this to work, see other questions about 100% height */
+    width:0;
+    border:2px solid white;
+}
+hr.vertical3 {
+	position:absolute;
+	width:0;
+	top:68vh;
+    height:17vh; /* you might need some positioning for this to work, see other questions about 100% height */
+    width:0;
+    border:2px solid white;
+}
+
+.card{
+	height:75vh;
+	border-radius: 15px;
+	box-shadow: 1px 0px 10px rgb(75,75,75);
+}
+
+
+.content{
+	overflow-x:auto;
+	width:auto;
+
+}
+
+div.content [class*="div"]
+{
+	float:none;
+}
+
+.scrollable{
+	overflow: scroll;
+}
