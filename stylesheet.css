@@ -6,7 +6,14 @@
 	height:100vh;
 }
 
+.container{
 
+	height:100vh;
+}
+.fixed{
+	position: fixed;
+	height: 100vh;
+}
 .sidebar{
 	background-color: #00001E;
 
@@ -95,14 +102,9 @@ hr.horizontal1{
 }
 
 
-.content{
-	overflow-x:auto;
-	width:auto;
-
-}
-
-
 .scrollable{
+	height:100vh;
+	max-height: 100vh;
 	overflow: scroll;
 }
 
@@ -143,4 +145,10 @@ div.textLink{
 .textDivsRight{
 	color:white;
 	text-align: right;
+}
+
+img{
+	height:50px;
+	width:50px;
+
 }
