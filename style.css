@@ -10,6 +10,7 @@ body{
     height:100vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     margin:0;
 
@@ -261,3 +262,15 @@ path#S2, path#K2{
     height: 100%;
     z-index: 2;
 }
+
+.svg{
+    display:block;
+}
+
+svg{
+    display:block;
+}
+
+a {
+    color:white;
+ }
