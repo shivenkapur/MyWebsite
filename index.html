@@ -20,10 +20,12 @@
             <path id = "K2" class="cls-1" d="M182.73,143.74h-33l-2.55-3a71.05,71.05,0,0,0-6.06-6.12L124.6,119.1v9.25a52,52,0,0,0,.21,5.87l1.14,9.52H104.13l1.14-9.52a52,52,0,0,0,.21-5.87V73.72a52,52,0,0,0-.21-5.87l-1.14-9.51H126l-1.14,9.51a52,52,0,0,0-.21,5.87v8.72l14.9-14.76a80.12,80.12,0,0,0,5.65-6.12l2.55-3.22h31.62l-18,15c-2.4,2-4.68,4.08-7,6.36L133,100.82l22.9,21.4c2.32,2.14,4.71,4.36,7.21,6.3Z" transform="translate(-14.81 -10.74)"/>
         </svg>
 
-        <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.58 27.01" style = "height: 4%;
+        <svg onclick = "clickArrow()" id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.58 27.01" style = "height: 4%;
     margin-top:50vh;
     padding-bottom: 13vh;
-    position: absolute;">
+    position: absolute;
+    cursor: pointer;
+    border-radius:100%;">
             <defs>
                 <style>.cls-1{fill:#0000000;stroke:white;stroke-miterlimit:7;}</style>
             </defs>
@@ -195,6 +197,13 @@
         function clickDevelopment()
         {
             var elmnt = document.getElementsByClassName("page_development")[0];
+            elmnt.scrollIntoView({ behavior: 'smooth'})
+
+        }
+
+        function clickArrow()
+        {
+            var elmnt = document.getElementsByClassName("page_second")[0];
             elmnt.scrollIntoView({ behavior: 'smooth'})
 
         }
